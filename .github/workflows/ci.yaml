@@ -19,7 +19,7 @@ jobs:
           python-version: 3.9
 
       - name: Instala o Poetry
-        uses: GrIn/setup-poetry@v4
+        uses: Gr1N/setup-poetry@v4
 
       - name: Instala as Dependencias
         run: poetry install
